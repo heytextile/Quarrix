@@ -1228,6 +1228,12 @@ body {
   height: 100%;
 }
 
+.txtl-wrapper .experience-the-benefits_arrows_wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .txtl-wrapper .experience-the-benefits__wrap .swiper .swiper-wrapper {
   justify-content: space-between;
   gap: 10px;
