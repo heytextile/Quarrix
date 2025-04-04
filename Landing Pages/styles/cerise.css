@@ -1184,7 +1184,7 @@ body {
 }
 
 .txtl-wrapper .quarrix-lp-container {
-  max-width: 1160px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -1207,7 +1207,7 @@ body {
 }
 
 .txtl-wrapper .experience-the-benefits__container {
-  max-width: 1160px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 0 20px;
 }
@@ -1227,15 +1227,30 @@ body {
   gap: 10px;
 }
 
-.txtl-wrapper .experience-the-benefits__card {
+/* .txtl-wrapper .experience-the-benefits__card {
   max-width: 352px;
-}
+} */
 
 .txtl-wrapper .experience-the-benefits__card img {
-  max-width: 352px;
+  /* max-width: 352px; */
   width: 100%;
   border: 1px solid #c2c2c2;
   max-height: 228px;
+  object-fit: contain;
+}
+
+.txtl-wrapper .experience-the-benefits_arrows_wrapper {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.txtl-wrapper .experience-the-benefits_arrows_wrapper .cards-swiper__left,
+.txtl-wrapper .experience-the-benefits_arrows_wrapper .cards-swiper__right {
+  width: 60px;
+  height: 60px;
   object-fit: contain;
 }
 
@@ -1524,6 +1539,9 @@ body {
     padding: 80px 0 100px;
     display: flex;
     flex-direction: column-reverse;
+  }
+  .txtl-wrapper .experience-the-benefits_arrows_wrapper {
+    display: flex;
   }
   .txtl-wrapper .quarrix-lp-hero__banner-wrap img {
     width: 150%;
