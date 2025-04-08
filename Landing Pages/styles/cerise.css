@@ -1282,18 +1282,27 @@ body {
   display: flex;
 }
 
+.txtl-wrapper .quarrix-lp-banner-v1__copy__wrapper {
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
 .txtl-wrapper .quarrix-lp-banner-v1__copy,
 .txtl-wrapper .quarrix-lp-banner-v1__image {
   width: 50%;
 }
 
 .txtl-wrapper .quarrix-lp-banner-v1__image {
-  position: relative;
+  /* position: relative; */
+  position: absolute;
+  right: 0;
+  height: 100%;
 }
 
 .txtl-wrapper .quarrix-lp-banner-v1__copy {
   position: relative;
-  padding: 90px 0px 90px 140px;
+  padding: 90px 0px 90px 20px;
   z-index: 2;
 }
 
@@ -1315,7 +1324,8 @@ body {
 .txtl-wrapper .quarrix-lp-banner-v1__image svg {
   position: absolute;
   height: 100%;
-  width: 425px;
+  /* width: 425px; */
+  width: 500px;
   left: -220px;
   z-index: 1;
 }
@@ -1569,6 +1579,9 @@ body {
   .txtl-wrapper .quarrix-lp-hero__image-absolute::after {
     height: 45px;
     filter: drop-shadow(0 -4mm 2mm rgb(255, 255, 255));
+  }
+  .txtl-wrapper .quarrix-lp-banner-v1__image {
+    position: relative;
   }
   .txtl-wrapper .quarrix-lp-banner-v1__image svg {
     display: none;
