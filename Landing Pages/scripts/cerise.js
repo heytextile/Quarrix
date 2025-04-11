@@ -39,6 +39,25 @@
         });
     }
 
+    const swiperHeroElements = document.querySelectorAll('.quarrix_hero_swiper');
+
+    if (swiperHeroElements) {
+        setTimeout(() => {
+            swiperHeroElements.forEach((swiperElement) => {
+                const swiper = new Swiper(swiperElement, {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                    loop: true,
+                    speed: 600,
+                    autoplay: { 
+                        delay: 6000, 
+                        disableOnInteraction: false
+                    },
+                });
+            });
+        }, 500);
+    }
+
     const cardsSwiper = document.querySelector('.cards-swiper');
 
     if (cardsSwiper) {
