@@ -48,6 +48,7 @@
                     slidesPerView: 1,
                     spaceBetween: 20,
                     loop: true,
+                    autoHeight: true,
                     speed: 600,
                     autoplay: { 
                         delay: 6000, 

@@ -33,11 +33,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  /* padding: 120px 0px; */
-  height: 90vh;
+  /* height: 100%; */
   display: flex;
   align-items: center;
   justify-content: center;
+  aspect-ratio: 16 / 9;
+  width: 100vw;
 }
 
 .txtl-wrapper .quarrix_hero .quarrix_hero_video {
@@ -826,9 +827,8 @@ body {
     padding: 15px 30px;
   }
 
-  .txtl-wrapper .quarrix_hero {
-    /* padding: 60px 0; */
-    height: 100vh;
+  .txtl-wrapper .quarrix_hero .quarrix_hero__text_wrapper{
+    padding: 60px 20px;
   }
 
   .txtl-wrapper .quarrix_hero .quarrix_hero__text_wrapper h1 {
